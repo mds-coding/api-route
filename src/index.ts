@@ -1,5 +1,4 @@
-import { HttpHandler } from "@mds-coding/http-handler-interface";
-import { HttpMethod } from "@mds-coding/http-method";
+import { HttpHandler, HttpMethod } from "@mds-coding/http";
 
 export class ApiRoute<RequestBodyT, ResponseBodyT> {
   method: HttpMethod;
