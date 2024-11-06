@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "mdos-san",
   "name": "@mds-coding/api-route",
-  "description": "Class representing an api route",
+  "description": "`ApiRoute` class definition",
   "type": "module",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -12,8 +12,7 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
-    "@mds-coding/http-handler-interface": "^2.0.0",
-    "@mds-coding/http-method": "^1.0.0"
+    "@mds-coding/http": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
